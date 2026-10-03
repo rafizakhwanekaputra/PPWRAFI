@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Sistem Informasi Data Mahasiswa - Praktikum 1 - Kelas B
+        </h1>
+
+        <P>
+            DATA MAHASISWA <br>
+            Nama : Rafi Zakwan Ekaputra <br>
+            NPM : 2455061008 <br>
+            Kelas : B <br>
+            Mata Kuliah : Sistem Informasi <br>
+            Dosen : Ibu Rina Sari, S.Kom., M.Kom. <br>
+        </P>
+        <img src="FOTO PROFIL.jpg.jpeg" alt="FOTO RAFI"
+        width="100"
+        height="100" border="0">
+    </header>
+
+    <hr>
+    <nav>
+        <ul>    
+            <li>
+                <a href="index">Home</a>
+            </li>
+                <a href ="daftar_mahasiswa">Daftar Mahasiswa</a>
+            </a>
+                <li>
+<a href="informasi_aplikasi">Informasi Aplikasi</a>
+                </li>
+                <a href="tambah_data_mahasiswa">Tambah Data Mahasiswa</a>
+            </li>
+        </ul>
+    <nav> 
+        <hr>
+        <main>
+            <section> id "informasi"
+                <h2>Informasi Sistem</h2>
+                <p> Sistem ini dibuat untuk memenuhi tugas praktikum 1 mata kuliah Sistem Informasi. Aplikasi ini berisi data mahasiswa kelas B, yang berisi nama, NPM, kelas, mata kuliah, dan dosen pengampu. </p>
+
+                <article>
+                    <h3>Informasi Sistem</h3>
+                    <p> Sistem ini dibuat menggunakan bahasa pemrograman HTML, CSS, dan JavaScript. Aplikasi ini juga menggunakan framework Bootstrap untuk mempercantik tampilan aplikasi. </p>
+            </section>
+
+            <hr>
+            <section id="daftar-mahasiswa">
+                <h2>Daftar Mahasiswa Aktif</h2>
+                <p> Berikut adalah daftar mahasiswa kelas B yang terdaftar dalam sistem ini. </p>
+                <table>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Foto</th>
+            <th>NPM</th>
+            <th>Nama Lengkap</th>
+            <th>Program Studi</th>
+            <th>Angkatan</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td><img src="FOTO PROFIL.jpg.jpeg" alt="FOTO RAFI" width="10"></td>
+            <td>2455061008</td>
+            <td>Rafi Zakwan Ekaputra</td>
+            <td>Sistem Informasi</td>
+            <td>2022</td>
+            <td>rafi.zakwan@example.com</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+<hr>
+<section>   
+    id "form-tambah"
+    <h2>Tambah Mahasiswa Baru</h2>
+    <p>
+        <form>
+            action # method "post"
+            <fieldset>
+                <legend>Form Tambah Mahasiswa</legend>
+                <label for="2455061008">NPM:</label><br>
+                <input type="text" id="2455061008" name="2455061008" placeholder="2455061008" required pattern="[0-9]{8,12}"><br><br>
+
+                <label for="Rafi Zakwan Ekaputra">Nama Lengkap:</label><br>
+                <input type="text" id="Rafi Zakwan Ekaputra" name="Rafi Zakwan Ekaputra" placeholder="Rafi Zakwan Ekaputra" required minlength="3" maxlength="100"><input><br><small></small>
+
+                <label for="Teknik_Informatika">Program Studi:</label><br>
+                <select id="Teknik_Informatika" name="Teknik_Informatika" required>
+                    <option value="">Pilih Program Studi</option>
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                </select><br><small>
+
+                <label for="2024">Angkatan:</label><br>
+                <input type="number" id="angkatan" name="angkatan" placeholder="2024" required min="2018" max="2026"><input><br><small>
+
+                <label for="rafizakhwanekaputra@gmail.com">Email:</label><br>
+                <input type="email" id="email" name="email" required><input><br><small>
+                    <button> 
+                        type="submit" value="Simpan Data Mahasiswa">
+                    </button>
+                    <button>
+                        type="reset" value="Reset Formulir">
+                    </button>
+
+                <input type="submit" value="Tambah Mahasiswa">
+            </fieldset>
+        </form>
+    </p>
+</section>
+
+                <article>
+                    <h3>Daftar Mahasiswa</h3>
+                    <ul>
+                        <li>Rafi Zakwan Ekaputra - 2455061008</li>
+                        <li>M. Zinedine Zidane  - 2455061009</li>
+                        <li>Nadya Putri - 2455061010</li>
+                        <!-- Tambahkan daftar mahasiswa lainnya sesuai kebutuhan -->
+                    </ul>
+                    
+                </article>
+
+        </main>
+</body>
+</html>
